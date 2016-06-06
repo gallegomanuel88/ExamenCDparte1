@@ -6,15 +6,15 @@ public class Prin {
 
     public static void main(String[] args) throws IOException {
         Principal obj1Principal = new Principal(10, 20);
-        int n = obj1Principal.i;
-        System.out.println("Es: " + n);
+        int valor1 = obj1Principal.i;
+        System.out.println("Es: " + valor1);
         
         Principal obj2Principal = new Principal(10);
-        int m = obj2Principal.i;
-        System.out.println("Es: " + m);
+        int valor2 = obj2Principal.i;
+        System.out.println("Es: " + valor2);
         
         Principal obj3Principal = new Principal();
-        int nn = obj3Principal.i;
-        System.out.println("Es: " + nn);
+        int valor3 = obj3Principal.i;
+        System.out.println("Es: " + valor3);
     }
 }
