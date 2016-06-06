@@ -1,19 +1,30 @@
 package examenfinalparte1;
 
 public class Principal {
-
-    int i;
-
+    /**
+     * Esta variable contiene el valor aplicado por el constructor.
+     */
+    int resultado;
+    /**
+     * Recibe 2 valores int que seran aplicado a los 2 valores del metodo "sumaVariables". El resultado del metodo "sumaValores" dara valor a int resultado.
+     * @param j Recibe un valor int que sera aplicado al primer valor del metodo "sumaVariables"
+     * @param m Recie un valor int que sera aplicado al segundo valor del metodo "sumaVariables"
+     */
     public Principal(int j, int m) {
-        i = sumaVariables(j, m);
+        resultado = sumaVariables(j, m);
     }
-
+    /**
+     * Recibe 1 valor int que sera aplicado a los 2 valores del metodo "sumaVariables". El resultado del metodo "sumaValores" dara valor a int resultado.
+     * @param j Recibe un valor int que sera aplicado a los 2 valores del metodo "sumaVariables"
+     */
     public Principal(int j) {
-        i = sumaVariables(j, j);
+        resultado = sumaVariables(j, j);
     }
-
+    /**
+     * Da a int resultado un valor por defecto de -1.
+     */
     public Principal() {
-        i = -1;
+        resultado = -1;
     }
     /**
      * Recibe 2 variables int, las suma y retorna mediante un int el resultado
